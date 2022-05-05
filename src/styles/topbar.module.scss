@@ -1,0 +1,24 @@
+.header{
+    padding: 2rem 3.2rem;
+    position: relative;
+    z-index: 850;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header_logo{
+    display: block;
+    width: 4rem;
+    height: 5rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+.header_logotitle{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1;
+    margin-left: 1rem;
+}
