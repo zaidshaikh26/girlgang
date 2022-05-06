@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  color: #2a2825;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+a {
+  text-decoration: none;
+}
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button, input {
+  overflow: visible;
+}
+button, select {
+  text-transform: none;
+}
+
+

@@ -1,0 +1,74 @@
+.Footer {
+    padding: 4rem 0 2.4rem;
+    border-top: 0.2rem solid #f3f1ee;
+}
+.Container__lg {
+    max-width: 70rem;
+    padding: 0 3.2rem;
+}
+.Container {
+    margin: 0 auto;
+    width: 100%;
+}
+.Footer_primary {
+    display: flex;
+    flex-flow: row wrap;
+}
+.Footer_nav {
+    flex: 1;
+    margin: 0;
+}
+.Footer_nav_items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    color: #82817d;
+}
+.Footer_nav_item {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    font-weight: 500;
+}
+.Footer_nav_link {
+    color: #82817d;
+    transition: color .25s;
+}
+.Footer_primary_dapperLabs {
+    color: #82817d;
+    font-size: 0.9rem;
+    font-weight: 400;
+    flex: 1;
+    margin: 0;
+    text-align: right;
+}
+.Footer_primary_dapperLabs a {
+    position: relative;
+    color: #2a2825;
+    font-weight: 500;
+    transition: color .25s;
+}
+.Footer_career {
+    margin-right: 1.8rem;
+}
+.Footer_secondary {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 6.4rem;
+    justify-content: center;
+}
+.Footer_secondary_link {
+    color: #82817d;
+    font-size: 0.9rem;
+    flex: 0 1 auto;
+    transition: color .25s;
+    margin: 0 2.4rem;
+}
+
+
+
+
+
+
+

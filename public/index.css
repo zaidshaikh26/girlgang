@@ -1,0 +1,13 @@
+
+body {
+    color: #2a2825;
+    background-color: #fff;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 2rem;
+    line-height: 1.4;
+    min-width: 320px;
+    margin: 0;
+}
+#root {
+    overflow-x: hidden;
+}
