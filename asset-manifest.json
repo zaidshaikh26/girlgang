@@ -1,13 +1,34 @@
 {
   "files": {
-    "main.css": "/girlgang/static/css/main.559b7b71.css",
-    "main.js": "/girlgang/static/js/main.639150c5.js",
+    "main.css": "/girlgang/static/css/main.50799aaa.css",
+    "main.js": "/girlgang/static/js/main.8966832c.js",
+    "static/media/banner-homepage.jpg": "/girlgang/static/media/banner-homepage.9b261894009b014b6241.jpg",
+    "static/media/fanciesBack.png": "/girlgang/static/media/fanciesBack.e37fbafc94e016177790.png",
+    "static/media/fanciesMid.png": "/girlgang/static/media/fanciesMid.c9c34958870bc3d46520.png",
+    "static/media/colortunnel.png": "/girlgang/static/media/colortunnel.9355f469deecf824e281.png",
+    "static/media/fanciesFront.png": "/girlgang/static/media/fanciesFront.c6f41dc57d6a0e7a5745.png",
+    "static/media/pattern-tile.svg": "/girlgang/static/media/pattern-tile.6a9cce82a478336d4666.svg",
+    "static/media/ether-diamond.gif": "/girlgang/static/media/ether-diamond.cf8761cc6456612ba2b0.gif",
+    "static/media/kitty-eth.svg": "/girlgang/static/media/kitty-eth.d7aaf622835d6cb9c4740271d9814f60.svg",
+    "static/media/offer.svg": "/girlgang/static/media/offer.59ded6623bbf97ef948a7326cb3f7b25.svg",
+    "static/media/logo-kv.svg": "/girlgang/static/media/logo-kv.9b37111118d3df858ca780c87c35d8a9.svg",
+    "static/media/coins.svg": "/girlgang/static/media/coins.70a1664f93f459ec9b3babbab8e834e2.svg",
+    "static/media/logo.svg": "/girlgang/static/media/logo.c388dd7e3cad9369a138.svg",
+    "static/media/purrstige.svg": "/girlgang/static/media/purrstige.5f9e96547fc63cd26077.svg",
+    "static/media/game.svg": "/girlgang/static/media/game.ecbbd48b6fc4a0b69c87ba7bc7130c77.svg",
+    "static/media/puzzles.svg": "/girlgang/static/media/puzzles.c9c4d07a331a0b1460a02682a71c085e.svg",
+    "static/media/games.svg": "/girlgang/static/media/games.dc5ab7220cde4a8a893f138ea3dc2eae.svg",
+    "static/media/eggplant.svg": "/girlgang/static/media/eggplant.143e6b247043d89b431178c16d55305f.svg",
+    "static/media/eggCrack.svg": "/girlgang/static/media/eggCrack.aee3d6d6bc20bdd6dde0f28e5780c22b.svg",
+    "static/media/gift.svg": "/girlgang/static/media/gift.22ab1ad83caa78c60f2576187acd61b8.svg",
+    "static/media/tag.svg": "/girlgang/static/media/tag.55af2670d4950fd390d7.svg",
     "index.html": "/girlgang/index.html",
-    "main.559b7b71.css.map": "/girlgang/static/css/main.559b7b71.css.map",
-    "main.639150c5.js.map": "/girlgang/static/js/main.639150c5.js.map"
+    "static/media/bgpattern.svg": "/girlgang/static/media/bgpattern.6dc305ccfe34b9cc1cb6.svg",
+    "main.50799aaa.css.map": "/girlgang/static/css/main.50799aaa.css.map",
+    "main.8966832c.js.map": "/girlgang/static/js/main.8966832c.js.map"
   },
   "entrypoints": [
-    "static/css/main.559b7b71.css",
-    "static/js/main.639150c5.js"
+    "static/css/main.50799aaa.css",
+    "static/js/main.8966832c.js"
   ]
 }
