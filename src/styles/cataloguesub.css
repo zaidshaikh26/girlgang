@@ -1,0 +1,257 @@
+.CountdownTimer--hide{
+    display:none
+}
+
+.SpecialKittyCard{
+    --borderRadius:1rem;--imageRadius:0.4rem;--transitionDuration:0.15s;cursor:pointer;position:relative;padding:1.5rem;width:100%;max-width:48rem;margin:auto;border-radius:var(--borderRadius);background-color:#fff;border:.2rem solid #f3f1ee;-webkit-transition:border-color var(--transitionDuration),-webkit-box-shadow var(--transitionDuration),-webkit-transform var(--transitionDuration);transition:border-color var(--transitionDuration),-webkit-box-shadow var(--transitionDuration),-webkit-transform var(--transitionDuration);transition:border-color var(--transitionDuration),box-shadow var(--transitionDuration),transform var(--transitionDuration);transition:border-color var(--transitionDuration),box-shadow var(--transitionDuration),transform var(--transitionDuration),-webkit-box-shadow var(--transitionDuration),-webkit-transform var(--transitionDuration)
+}
+.SpecialKittyCard:hover{
+    border-color:#e7e6e4;-webkit-box-shadow:0 .2rem 0 0 #e7e6e4;box-shadow:0 .2rem 0 0 #e7e6e4;-webkit-transform:translateY(-.2rem);transform:translateY(-.2rem)
+}
+.SpecialKittyCard-link{
+    overflow:hidden
+}
+.SpecialKittyCard-purchasableCard{
+    cursor:default
+}
+.SpecialKittyCard-purchasableCard:hover{
+    border-color:#f3f1ee;-webkit-box-shadow:unset;box-shadow:unset;-webkit-transform:unset;transform:unset
+}
+.SpecialKittyCard-txt{
+    height:1.8rem;font-size:1.6rem;color:#82817d;font-weight:500;line-height:1.8rem
+}
+.SpecialKittyCard-txt--timer{
+    color:#49b749
+}
+.SpecialKittyCard-header{
+    position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;height:5.2rem;padding-bottom:1rem
+}
+.SpecialKittyCard-header-row{
+    width:100%
+}
+.SpecialKittyCard-title{
+    width:85%;line-height:2.4rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:2.4rem;font-weight:500
+}
+.SpecialKittyCard-subTitle{
+    font-size:1.6rem;color:#82817d;font-weight:500;line-height:1.6rem
+}
+.SpecialKittyCard-stats{
+    position:absolute;text-align:right;bottom:1rem;right:0
+}
+.SpecialKittyCard--color-autumnmoon{
+    background-color:#fdf3e0
+}
+.SpecialKittyCard--color-autumnmoon:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #e7d4b4,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #e7d4b4,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-babypuke{
+    background-color:#eff1e0
+}
+.SpecialKittyCard--color-babypuke:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #cfd4b0,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #cfd4b0,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-bridesmaid{
+    background-color:#ffd5e5
+}
+.SpecialKittyCard--color-bridesmaid:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #eba3bc,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #eba3bc,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-bubblegum{
+    background-color:#fadff4
+}
+.SpecialKittyCard--color-bubblegum:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #eebce3,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #eebce3,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-chestnut{
+    background-color:#efe1da
+}
+.SpecialKittyCard--color-chestnut:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #d4beb3,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #d4beb3,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-coralsunrise{
+    background-color:#fde9e4
+}
+.SpecialKittyCard--color-coralsunrise:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #e7c3bb,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #e7c3bb,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-cyan{
+    background-color:#c5eefa
+}
+.SpecialKittyCard--color-cyan:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #83cbe0,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #83cbe0,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-dahlia{
+    background-color:#e6eafd
+}
+.SpecialKittyCard--color-dahlia:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #bec5e7,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #bec5e7,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-doridnudibranch{
+    background-color:#faeefa
+}
+.SpecialKittyCard--color-doridnudibranch:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #e1cce1,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #e1cce1,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-downbythebay{
+    background-color:#cde5d1
+}
+.SpecialKittyCard--color-downbythebay:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #97bc9c,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #97bc9c,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-eclipse{
+    background-color:#e5e7ef
+}
+.SpecialKittyCard--color-eclipse:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #cdd1e0,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #cdd1e0,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-isotope{
+    background-color:#effdca
+}
+.SpecialKittyCard--color-isotope:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #cde793,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #cde793,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-forgetmenot{
+    background-color:#dcebfc
+}
+.SpecialKittyCard--color-forgetmenot:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #a7caea,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #a7caea,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-gold{
+    background-color:#faf4cf
+}
+.SpecialKittyCard--color-gold:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #e3daa1,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #e3daa1,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-limegreen{
+    background-color:#d9f5cb
+}
+.SpecialKittyCard--color-limegreen:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #b4d9a2,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #b4d9a2,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-mintgreen{
+    background-color:#cdf5d4
+}
+.SpecialKittyCard--color-mintgreen:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #9ad7a5,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #9ad7a5,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-oasis{
+    background-color:#e6faf3
+}
+.SpecialKittyCard--color-oasis:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #bee1d4,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #bee1d4,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-olive{
+    background-color:#ecf4e0
+}
+.SpecialKittyCard--color-olive:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #c8d6b4,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #c8d6b4,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-palejade{
+    background-color:#e7f1ed
+}
+.SpecialKittyCard--color-palejade:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #c0d1ca,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #c0d1ca,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-parakeet{
+    background-color:#e5f3e2
+}
+.SpecialKittyCard--color-parakeet:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #bcd4b8,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #bcd4b8,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-pinefresh{
+    background-color:#dbf0d0
+}
+.SpecialKittyCard--color-pinefresh:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #adcf9b,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #adcf9b,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-pumpkin{
+    background-color:#fae1ca
+}
+.SpecialKittyCard--color-pumpkin:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #efc8a4,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #efc8a4,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-sapphire{
+    background-color:#d3e8ff
+}
+.SpecialKittyCard--color-sapphire:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #a2c2eb,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #a2c2eb,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-sizzurp{
+    background-color:#dfdffa
+}
+.SpecialKittyCard--color-sizzurp:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #c1c1ea,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #c1c1ea,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-strawberry{
+    background-color:#ffe0e5
+}
+.SpecialKittyCard--color-strawberry:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #efbaba,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #efbaba,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-thundergrey{
+    background-color:#eee9e8
+}
+.SpecialKittyCard--color-thundergrey:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #dbccc7,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #dbccc7,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-topaz{
+    background-color:#d1eeeb
+}
+.SpecialKittyCard--color-topaz:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #a8d5d1,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #a8d5d1,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-twilightsparkle{
+    background-color:#ede2f5
+}
+.SpecialKittyCard--color-twilightsparkle:after{
+    -webkit-box-shadow:inset 0 0 0 .2rem #dcc7ec,inset 0 0 0 .4rem #fff;box-shadow:inset 0 0 0 .2rem #dcc7ec,inset 0 0 0 .4rem #fff
+}
+.SpecialKittyCard--color-empty{
+    background-color:#e7e6e4;-webkit-filter:grayscale(100%);filter:grayscale(100%)
+}
+.SpecialKittyCard--color-empty img{
+    opacity:.3
+}
+.SpecialKittyCard-image{
+    position:relative;z-index:1;overflow:hidden;margin:0;padding-bottom:100%
+}
+.SpecialKittyCard-image,.SpecialKittyCard-image img{
+    display:block;width:100%;border-radius:var(--imageRadius)
+}
+.SpecialKittyCard-image img{
+    position:absolute;top:0;left:0;height:auto
+}
+.SpecialKittyCard--loading .SpecialKittyCard-image{
+    background:-webkit-gradient(linear,left top,right top,from(#fcfbfa),color-stop(#f9f8f6),to(#fcfbfa));background:linear-gradient(90deg,#fcfbfa,#f9f8f6,#fcfbfa);background-size:400% 400%;-webkit-animation:kittyCardLoading .5s infinite alternate;animation:kittyCardLoading .5s infinite alternate
+}
+.SpecialKittyCard-footer{
+    display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-top:1.4rem;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end
+}
+.SpecialKittyCard-limited-text{
+    color:#49b749
+}
+.SpecialKittyCard-footer-price{
+    color:#2a2825;font-size:2.4rem;font-weight:500
+}
+.SpecialKittyCard-footer-buyNow{
+    width:16.5rem
+}
+.SpecialKittyCard-purchaseable-footer{
+    margin-top:2rem;-webkit-box-align:center;-ms-flex-align:center;align-items:center
+}
+.SpecialKittiesGrid{
+    display:grid;grid-template-columns:repeat(1,1fr);grid-gap:2.4rem
+}
+@media (min-width:760px){
+    .SpecialKittiesGrid{
+        grid-template-columns:repeat(2,1fr)
+    }
+}
+@media (min-width:960px){
+    .SpecialKittiesGrid{
+        grid-template-columns:repeat(3,1fr)
+    }
+}
+.catalogue-link{
+    color: #2a2825 !important;
+}

@@ -1,0 +1,64 @@
+.NewsletterForm-success{
+    text-align:center
+}
+.NewsletterForm-success h2{
+    margin:0 0 .8rem;font-size:2.8rem
+}
+.NewsletterForm-success p{
+    margin:0;font-size:1.8rem
+}
+.NewsletterForm-error{
+    color:#ef52d1;font-size:1.6rem
+}
+.NewsletterForm-detailsLink{
+    text-align:center
+}
+.NewsletterForm-detailsLink a{
+    color:#9c9c9b;font-size:1.6rem;font-weight:500;-webkit-text-decoration:underline #f3f1ee;text-decoration:underline #f3f1ee;-webkit-transition:color .2s,-webkit-text-decoration .2s;transition:color .2s,-webkit-text-decoration .2s;transition:color .2s,text-decoration .2s;transition:color .2s,text-decoration .2s,-webkit-text-decoration .2s
+}
+.NewsletterForm-detailsLink a:hover{
+    color:#2a2825;-webkit-text-decoration:underline #9c9c9b;text-decoration:underline #9c9c9b
+}
+
+.NewsletterPage{
+    display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding:1.6rem;border-radius:.8rem;-webkit-box-shadow:0 .6rem 1.2rem 0 hsla(36,7%,59%,.12);box-shadow:0 .6rem 1.2rem 0 hsla(36,7%,59%,.12);border:.2rem solid #e7e6e4;margin-bottom:6rem;margin-top:4.5rem
+}
+@media (min-width:760px){
+    .NewsletterPage{
+    margin-bottom:8rem;margin-top:6rem
+}
+
+}
+@media (min-width:480px){
+    .NewsletterPage{
+    -webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;padding:2.4rem
+}
+
+}
+.NewsletterPage-image{
+    --image-size:40rem;max-height:var(--image-size);max-width:var(--image-size)
+}
+.NewsletterPage-image>img{
+    max-width:100%;max-height:100%
+}
+.NewsletterPage-content{
+    display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center
+}
+@media (min-width:480px){
+    .NewsletterPage-content{
+    margin-left:2rem
+}
+
+}
+.NewsletterPage-title{
+    font-size:3.2rem
+}
+.NewsletterPage-list{
+    padding-left:2rem;list-style-image:url("../../public/assets/images/glimmer.svg");font-size:fontSize(14);font-weight:500
+}
+@media (min-width:480px){
+    .NewsletterPage-list{
+    font-size:fontSize(18)
+}
+
+}

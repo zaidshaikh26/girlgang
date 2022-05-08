@@ -1,0 +1,148 @@
+.hOrZdU {
+    width: 90%;
+    margin: 0px 5%;
+    max-width: 1480px;
+}
+.dZSXeB {
+    padding: 0.8rem 0px 0.8rem 60px;
+    border-radius: 5px;
+    font-weight: 900;
+    box-shadow: rgb(231 230 228) 3px 5px;
+    text-transform: capitalize;
+    color: rgb(68, 68, 68);
+    font-size: 2.8rem;
+    width: 100%;
+    max-width: 1480px;
+    background: url(../../public/assets/images/pattern-tile.svg) center top / 44rem repeat rgb(243, 241, 238);
+    position: relative;
+    font-family: Calibre, Helvetica, Arial, sans-serif !important;
+}
+@media (min-width: 480px){
+.dZSXeB {
+    font-size: 3.7rem;
+    padding-left: 100px;
+}
+}
+.dZSXeB::before {
+    content: "";
+    position: absolute;
+    background-image: url(../../public/assets/images/gift.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0.2rem solid rgb(243, 241, 238);
+    box-shadow: rgb(243 241 238) 0px 0.2rem 0px 0px;
+    width: 30px;
+    height: 30px;
+    margin-left: -42px;
+}
+@media (min-width: 480px){
+.dZSXeB::before {
+    width: 46px;
+    height: 46px;
+    margin-left: -70px;
+}
+}
+.AYCQQ {
+    margin: 3.2rem 0px;
+}
+@media (min-width: 1200px){
+.AYCQQ {
+    display: flex;
+    justify-content: space-around;
+}
+}
+.AYCQQ > div {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 3.2rem 2.4rem;
+    border-radius: 0.8rem;
+    border: 2px solid rgb(243, 241, 238);
+    width: 100%;
+    margin: 0px 0px 2.4rem;
+}
+@media (min-width: 760px){
+.AYCQQ > div {
+    margin: 0px 0px 2.4rem 10%;
+    width: 80%;
+}
+}
+@media (min-width: 1200px){
+.AYCQQ > div {
+    margin: 0px;
+    width: 28%;
+}
+}
+.AYCQQ > div > img {
+    width: 120px;
+    margin-bottom: 2.4rem;
+}
+.AYCQQ > div img {
+    margin-bottom: 1.6rem;
+    width: 100px;
+    height: 100px;
+}
+.AYCQQ > div h2 {
+    text-align: center;
+    font-size: 2.4rem;
+}
+@media (min-width: 1200px){
+.AYCQQ > div h2 {
+    font-size: 2.8rem;
+}
+}
+.AYCQQ > div p {
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: rgb(42, 40, 37);
+}
+.AYCQQ > div p:first-of-type {
+    font-size: 2.4rem;
+    color: rgb(239, 82, 209);
+    margin-bottom: 1.6rem;
+}
+@media (min-width: 480px){
+.AYCQQ > div p:first-of-type {
+    font-size: 2.8rem;
+}
+}
+.AYCQQ > div p span {
+    display: inline-block;
+    margin-right: 3px;
+}
+.AYCQQ > div p > b {
+    color: rgb(239, 82, 209);
+}
+.AYCQQ > div > div {
+    margin-top: 3.2rem;
+}
+.jJdkGn {
+    display: flex;
+    border: 0.2rem solid rgb(243, 241, 238);
+    box-shadow: rgb(243 241 238) 0px 0.2rem 0px 0px;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin-bottom: 2.4rem;
+    align-items: flex-start;
+}
+@media (min-width: 960px){
+.jJdkGn {
+    -webkit-box-align: center;
+    align-items: center;
+}
+}
+.jJdkGn > div {
+    width: 90px;
+    margin: 0px 2.4rem 0px 0px;
+    box-sizing: border-box;
+}
+.jJdkGn > div > img {
+    width: 90px;
+}
+.jJdkGn > p {
+    color: rgb(87, 85, 83);
+}
+
+
+

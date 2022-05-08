@@ -1,6 +1,6 @@
 import "../styles/guide.css"
 import { Link } from "react-router-dom";
-import arrow from "./images/go-arrow.svg"
+import arrow from "../pages/images/go-arrow.svg"
 
 export default function Guide() {
 
@@ -29,7 +29,9 @@ export default function Guide() {
                         {numberstwo.map(founder=>
                         <ul>
                             {numbersthree.map(founder=>
-                                <li><a href="/guide/getting-started">Getting Started</a></li>
+                                <li>
+                                    <Link to="/guide/getting-started">Getting Started</Link>
+                                </li>
                             )}
                         </ul>
                         )}

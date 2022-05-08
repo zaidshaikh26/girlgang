@@ -4711,7 +4711,7 @@ to{
     background-color:#f3f1ee
 }
 .Pagination-page--active,.Pagination-page--active:hover{
-    background-color:#e96bd4;color:#fff
+    background-color:#e96bd4 !important;color:#fff
 }
 
 .GalleryPagination{
