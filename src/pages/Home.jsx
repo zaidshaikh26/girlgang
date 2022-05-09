@@ -1,5 +1,5 @@
 import "../styles/home.css"
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
 import fanciesFront from "./images/fanciesFront.png"
 import fanciesBack from "./images/fanciesBack.png"
 import fanciesMid from "./images/fanciesMid.png"
@@ -17,8 +17,10 @@ import oldkitty from "./images/124.png"
 import breeding from "./images/breeding-kitties.svg"
 
 export default function Home() {
+    
     const numbers = [65, 44, 12, 4, 26];
     const numberstwo = [65, 44, 12];
+
     return (
         <main class="sc-dkPtRN kCyLCm">
             <div class="Landing">

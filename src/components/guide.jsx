@@ -1,11 +1,22 @@
 import "../styles/guide.css"
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import arrow from "../pages/images/go-arrow.svg"
+import { useState, useEffect } from "react";
 
 export default function Guide() {
 
+    const [searchParams, setSearchParams] = useState(false);
+
+    useEffect(() => {
+
+        if(window.location.href.indexOf("getting-started") > -1 || window.location.href.indexOf("gas") > -1){
+            setSearchParams(true)
+        }
+        
+    }, []);
+
     const numberstwo = [65, 44];
-    const numbersthree = [65, 44, 12, 4,65, 44, 12, 4,65, 44, 12, 4];
+    const numbersthree = [65, 44, 12, 4,65, 44, 12, 4,65, 44, 12];
 
     return (
         <main class="sc-dkPtRN kCyLCm">
@@ -26,19 +37,32 @@ export default function Guide() {
                 <div class="Guide--menu visible">
                     <h3 style={{color: "rgb(239, 82, 209)"}}><button type="button" class="Toolbar-menu-button Toolbar-menu-button--active"><svg class="IconV2 IconV2--position-default IconV2--display-inlineBlock" width="24" height="24" viewBox="0 0 16 16"><g fill="none" fill-rule="evenodd" stroke="#EF52D1" stroke-width="1.5" transform="matrix(-1 0 0 1 12.48 2.56)" vector-effect="non-scaling-stroke"><g stroke-linecap="round"><path d="M0 1.28h5.04m2.76 0h1.16M0 5.12h1.186m2.86 0H8.96M0 9.28h5.117m2.787 0H8.96"></path></g><circle cx="6.56" cy="1.12" r="1.12"></circle><circle cx="2.72" cy="5.12" r="1.12"></circle><circle cx="6.56" cy="9.12" r="1.12"></circle></g></svg></button>Guide Sections</h3>
                     <div class="visible">
-                        {numberstwo.map(founder=>
                         <ul>
+                            <li>
+                                <Link class={searchParams ? 'selected' : ''} to="/guide/getting-started">Getting Started</Link>
+                            </li>
                             {numbersthree.map(founder=>
                                 <li>
                                     <Link to="/guide/getting-started">Getting Started</Link>
                                 </li>
                             )}
                         </ul>
-                        )}
+                        <ul>
+                            <li>
+                                <Link to="/guide/getting-started">Getting Started</Link>
+                            </li>
+                            {numbersthree.map(founder=>
+                                <li>
+                                    <Link to="/guide/getting-started">Getting Started</Link>
+                                </li>
+                            )}
+                        </ul>
                     </div>
                 </div>
+                {!searchParams ? 
                 <div class="Guide--links"><div></div><div><a href="/guide/getting-started">Getting Started</a><img src={arrow} alt=""/></div></div>
-            </div>
+                : ''}
+                </div>
         </main>
     )
 

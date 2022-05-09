@@ -26,6 +26,7 @@ import FancyCats from './pages/catalogue/fancy-cats';
 import Purrstige from './pages/catalogue/purrstige';
 import SpecialEditionCats from './pages/catalogue/special-edition-cats';
 import ExclusiveCats from './pages/catalogue/exclusive-cats';
+import Search from './pages/search';
 
 function App() {
   console.log('plp');
@@ -53,6 +54,7 @@ function App() {
           <Route path="/catalogue/purrstige" element={<Purrstige/>}/>
           <Route path="/catalogue/special-edition-cats" element={<SpecialEditionCats/>}/>
           <Route path="/catalogue/exclusive-cats" element={<ExclusiveCats/>}/>
+          <Route path="/search" element={<Search/>}/>
         </Routes>
       <Footer/>
     </Router>

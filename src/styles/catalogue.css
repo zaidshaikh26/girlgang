@@ -525,7 +525,7 @@ body:not(.keyboard-intent) .ButtonV2{
 }
 @media (min-width:760px){
     .ButtonV2--size-default{
-    min-width:14.5rem;padding-left:1.6rem;padding-right:1.6rem;height:5.8rem;font-size:2rem
+    min-width:14.5rem;padding-left:1.6rem;padding-right:1.6rem;height:5.8rem;font-size:1.7rem
 }
 
 }
@@ -1150,7 +1150,7 @@ to{
     display:-webkit-box;display:-ms-flexbox;display:flex
 }
 .Footer-nav-item{
-    font-size:1.6rem;font-weight:500
+    font-size:1.5rem;font-weight:500
 }
 .Footer-nav-link{
     color:#82817d;-webkit-transition:color .25s;transition:color .25s
@@ -1231,7 +1231,7 @@ to{
     color:#37245b
 }
 .Footer-primary-dapperLabs{
-    -webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;color:#82817d;font-size:1.6rem;font-weight:400
+    -webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;color:#82817d;font-size:1.5rem;font-weight:400
 }
 .Footer-primary-dapperLabs a{
     position:relative;color:#2a2825;font-weight:500;-webkit-transition:color .25s;transition:color .25s
@@ -5895,7 +5895,7 @@ to{
     margin-bottom:1.5rem
 }
 .Catalogue>p{
-    margin:1.5rem 0 2.4rem;font-size:2rem;font-weight:500;color:#2a2825
+    margin:1.5rem 0 2.4rem;font-size:1.8rem;font-weight:500;color:#2a2825
 }
 .Catalogue>p>span{
     font-weight:700
@@ -6127,11 +6127,11 @@ to{
 }
 .Landing-main {
     position: relative;
-    padding-top: 3.2rem;
+    padding-top: 3.2rem !important;
 }
 @media (min-width: 760px){
 .Landing-main {
-    padding-top: 4.2rem;
+    padding-top: 4.2rem !important;
 }
 }
 /* Custom */
@@ -6149,6 +6149,13 @@ to{
 .bejXuO h1 {
     padding-left: 102px;
     font-size: 5rem;
+}
+@media (max-width: 480px){
+    .bejXuO h1 {
+        padding-left: 102px;
+        font-size: 3rem;
+        margin: 0px 6.4rem 3.2rem 0px;
+    }
 }
 @media (min-width: 760px){
     .bejXuO h1 {
@@ -6176,7 +6183,17 @@ to{
 }
 .bejXuO h1 > a {
     color: rgb(42, 40, 37);
+    font-size: 4rem;
 }
+
+
+@media (max-width: 480px){
+.bejXuO h1 > a {
+    color: rgb(42, 40, 37);
+    font-size: 2rem;
+}
+}
+
 .bejXuO h1 > a > span {
     color: rgb(239, 82, 209);
 }
@@ -6187,7 +6204,7 @@ to{
     box-shadow: rgb(231 230 228) 3px 5px;
     text-transform: capitalize;
     color: rgb(68, 68, 68);
-    font-size: 2.8rem;
+    font-size: 2rem;
     width: 100%;
     max-width: 1480px;
     background: url(../../public/assets/images/pattern-tile.svg) center top / 44rem repeat rgb(243, 241, 238);
@@ -6258,7 +6275,7 @@ to{
 }
 .hPoAgP > div ul li {
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-align: center;
 }
 .hPoAgP > div p {
@@ -6266,7 +6283,7 @@ to{
     box-shadow: rgb(243 241 238) 0px 0.2rem 0px 0px;
     padding: 0.8rem;
     margin: 0px 0.8rem;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: bold;
     border-radius: 5px;
     width: 180px;
@@ -6482,7 +6499,7 @@ to{
     text-align: center;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 900;
 }
 @media (min-width: 960px){
@@ -6491,7 +6508,7 @@ to{
 }
 }
 .kcpKXn > li > div > span:first-of-type {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 .kcpKXn > li > div > span > a {
     color: rgb(87, 85, 83);

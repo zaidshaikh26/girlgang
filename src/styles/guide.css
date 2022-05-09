@@ -7,6 +7,9 @@
 }
 
 }
+.Guide{
+    padding-bottom: 1rem;
+}
 .Guide h2{
     margin-bottom:2.4rem
 }
@@ -201,4 +204,19 @@
 }
 .Guide--links>div:last-of-type>img{
     margin-left:.8rem
+}
+.sc-dkPtRN{
+    min-height: unset !important;
+}
+.Guide--menu>div>ul>li>a.selected {
+    color: #ef52d1;
+}
+.Guide--menu>div>ul>li a.selected:before {
+    content: "";
+    position: absolute;
+    background-image: url(../../public/assets/images/go-arrow.svg);
+    background-size: 100% auto;
+    width: 20px;
+    height: 20px;
+    margin: 4px 0 0 -30px;
 }

@@ -439,7 +439,7 @@ to{
 }
 @media (min-width:1200px){
     .ValueProposition-text{
-    font-size:2rem
+    font-size:1.7rem
 }
 
 }
@@ -719,7 +719,7 @@ to{
 }
 @media (min-width:760px){
     .Explainer-headline{
-    font-size:4.2rem
+    font-size:3rem
 }
 
 }
@@ -728,7 +728,7 @@ to{
 }
 @media (min-width:760px){
     .Explainer-description{
-    font-size:2.4rem
+    font-size:2rem
 }
 
 }
@@ -816,6 +816,13 @@ to{
 }
 
 }
+
+@media (max-width:480px){
+.Explainer-breed-button{
+    margin-top:4.2rem;margin-bottom:4.2rem;min-width:100% !important
+}
+}
+
 @media (min-width:480px){
     .Explainer-breed-button:last-of-type{
     margin-left:.8rem
@@ -851,7 +858,7 @@ to{
 }
 @media (min-width:960px){
     .Catalogue--c2a h2{
-    font-size:7.2rem
+    font-size:6.2rem
 }
 
 }
@@ -860,7 +867,7 @@ to{
 }
 @media (min-width:760px){
     .Catalogue--c2a p{
-    font-size:2.4rem;max-width:none
+    font-size:2rem;max-width:none
 }
 
 }
@@ -933,7 +940,7 @@ to{
 }
 @media (min-width: 480px){
 .iNfvTr > div h2 {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
 }
 }
 .iNfvTr > div p {
@@ -944,7 +951,7 @@ to{
 }
 @media (min-width: 480px){
 .iNfvTr > div p {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 }
 .gZnIbH {

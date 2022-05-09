@@ -10,7 +10,7 @@
     box-shadow: rgb(231 230 228) 3px 5px;
     text-transform: capitalize;
     color: rgb(68, 68, 68);
-    font-size: 2.8rem;
+    font-size: 2rem;
     width: 100%;
     max-width: 1480px;
     background: url(../../public/assets/images/pattern-tile.svg) center top / 44rem repeat rgb(243, 241, 238);
@@ -142,6 +142,7 @@
 }
 .jJdkGn > p {
     color: rgb(87, 85, 83);
+    font-size: 1.7rem;
 }
 
 

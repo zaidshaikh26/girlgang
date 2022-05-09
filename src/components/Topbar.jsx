@@ -24,6 +24,15 @@ import logoKv from "../pages/images/logo-kv.svg"
 
 export default function Topbar() {
 
+    const [isExtraSmallDevice, setIsExtraSmallDevice]= useState(false)
+    useEffect(()=>{
+        var query =window.matchMedia('(max-width: 1000px)')
+        setIsExtraSmallDevice(query.matches)
+        const update=(query)=>{setIsExtraSmallDevice(query.matches)}
+        query.addListener(update)
+        return ()=> query.removeListener(update)
+    },[])
+
     const [isDropOpen1, setIsDropOpen1] = useState(false);
     const [isDropOpen2, setIsDropOpen2] = useState(false);
     const [isDropOpen3, setIsDropOpen3] = useState(false);
@@ -37,11 +46,13 @@ export default function Topbar() {
             </Link>
             <div class="ProviderStatusContainer">
                 <div class="ProviderStatus ProviderStatus--locked">
+                    {isExtraSmallDevice ? ' ': 
                     <span class="ProviderStatus-message">
                         <span class="ProviderStatus-badge"></span>
                         <span class="ProviderStatus-status">Locked wallet:</span>
                         <span class="ProviderStatus-provider">MetaMask</span>
                     </span>
+                    }
                 </div>
             </div>
             <nav class="Header-navigation">

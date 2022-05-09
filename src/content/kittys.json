@@ -1,0 +1,26 @@
+{"kitty":[
+    {
+        "id": 1713637,
+        "gen": {
+            "name": "Gen",
+            "val": 3
+        },
+        "time": {
+            "name": "Plodding",
+            "val": "(8h)"
+        },
+        "cost": {
+            "name": "Buy",
+            "val": 0.0034
+        },
+        "type": {
+            "name": "cryptoKitties"
+        },
+        "specications": {
+            "mewtations": "granitegrey",
+            "cooldown": "granitegrey",
+            "cattributes": "granitegrey",
+            "colorcattributes": "granitegrey"
+        }
+    }
+]}
